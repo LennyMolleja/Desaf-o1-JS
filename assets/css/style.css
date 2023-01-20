@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(221, 192, 248);
+    font-family:'Arial Narrow';
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px; ;
+}
+
+.containerFluid1{
+    width: 40%;
+    border: solid 10px black;
+    border-radius: 5%;
+    background-color: rgb(227, 160, 71);
+    text-align: center;
+    padding: 15px;
+}
+
+#img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+input, .name, .precio{
+    text-align: center;
+    font-size: x-large;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(170, 120, 77);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.selColor{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    background-color: rgb(14, 14, 14);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.containerFluid2{
+    font-size: x-large;
+    padding: 3px;
+    margin: 5px;
+    margin-top: 250px;
+}

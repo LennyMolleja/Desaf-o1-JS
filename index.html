@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculando el Total</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerFluid1">
+            <img src="./assets/img/perfume.jpg" id="img" alt="Imagen de Perfume">
+        <p class="name"><b>Perfume de Dama</b> </p>
+        <form>
+            <input type="number" name="Cantidad" class="cantidad" placeholder="Cantidad"/><br>
+            <input type="text" name="Color" class="colorSelect" placeholder="¿Que Color Deseas?"/>
+            </form>
+        <p class="precio"><b>Precio: 2000</b></p>
+        <button id="btn">Calculo Total</button>
+        </div>
+        <div class="containerFluid2">
+            <p class="total">Total: <span id="tot">$0</span></p>
+            <p class="cantidad">Cantidad: <span id="can">0</span></p>
+            <div class="selColor">
+                <p class="color">Color: <div class="col"></div></p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
